@@ -1,0 +1,71 @@
+:root {
+  --dark-background-color: #1f2937;
+  --blue-background-color: #3882f6;
+  --quote-background-color: #e5e7eb;
+  --header-hero-footer-color: #f9faf8;
+}
+
+* {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: var(--dark-background-color);
+  color: var(--header-hero-footer-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 15% 16px 15%;
+}
+
+p {
+  font-size: 24px;
+}
+
+ul {
+  font-size: 18px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: var(--quote-background-color);
+  font-weight: 100;
+}
+
+/* Font: Roboto
+Dark background color (header, hero section and footer): #1F2937
+Logo text:
+Font size: 24px
+Color: #F9FAF8
+Hero section main text (“This website is awesome”):
+Font size: 48px
+Color: #F9FAF8
+Weight: 900
+Hero secondary text (“This website has some subtext…”) and header links:
+Font size: 18px
+Color: #E5E7EB
+Button and “Call to action” background color: #3882F6
+Information heading:
+Font size: 36px
+Color: #1F2937
+Weight: 900
+Quote:
+Background color: #E5E7EB
+Font size: 36px
+Color: #1F2937
+Weight: 300
+Font style: italic */

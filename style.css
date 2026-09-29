@@ -46,6 +46,28 @@ ul {
   font-weight: 100;
 }
 
+.hero {
+  background-color: var(--dark-background-color);
+  color: var(--header-hero-footer-color);
+}
+
+.hero-heading {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-paragraph-left {
+  font-size: 18px;
+  font-weight: 150;
+  color: var(--quote-background-color);
+}
+
+.signup-button-one {
+  background-color: var(--blue-background-color);
+  color: var(--quote-background-color);
+  border: none;
+}
+
 /* Font: Roboto
 Dark background color (header, hero section and footer): #1F2937
 Logo text:

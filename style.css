@@ -3,6 +3,7 @@
   --blue-background-color: #3882f6;
   --quote-background-color: #e5e7eb;
   --header-hero-footer-color: #f9faf8;
+  --placeholder-color: rgb(152, 150, 150);
 }
 
 * {
@@ -49,6 +50,11 @@ ul {
 .hero {
   background-color: var(--dark-background-color);
   color: var(--header-hero-footer-color);
+  padding: 16px 15% 16px 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
 }
 
 .hero-heading {
@@ -66,20 +72,35 @@ ul {
   background-color: var(--blue-background-color);
   color: var(--quote-background-color);
   border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  margin: 8px 0px;
+}
+
+.right-hero {
+  background-color: var(--placeholder-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-paragraph-right {
+  padding: 40px 60px;
+  font-size: 18px;
 }
 
 /* Font: Roboto
-Dark background color (header, hero section and footer): #1F2937
-Logo text:
-Font size: 24px
-Color: #F9FAF8
-Hero section main text (“This website is awesome”):
-Font size: 48px
-Color: #F9FAF8
-Weight: 900
-Hero secondary text (“This website has some subtext…”) and header links:
-Font size: 18px
-Color: #E5E7EB
++Dark background color (header, hero section and footer): #1F2937
++Logo text:
++Font size: 24px
++Color: #F9FAF8
++Hero section main text (“This website is awesome”):
++Font size: 48px
++Color: #F9FAF8
++Weight: 900
++Hero secondary text (“This website has some subtext…”) and header links:
++Font size: 18px
++Color: #E5E7EB
 Button and “Call to action” background color: #3882F6
 Information heading:
 Font size: 36px

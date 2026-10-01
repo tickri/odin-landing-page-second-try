@@ -100,6 +100,7 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .info-heading {
@@ -114,19 +115,41 @@ ul {
 }
 
 .box-and-text {
-  width: 140px;
+  width: 120px;
 }
 
 .blue-box {
   border: 2px solid var(--blue-background-color);
-  height: 140px;
-  width: 140px;
+  height: 120px;
+  width: 120px;
   border-radius: 10px;
 }
 
 .info-text {
   font-size: 18px;
   color: var(--placeholder-color);
+  text-align: center;
+}
+
+.quote-section {
+  background-color: var(--quote-background-color);
+  color: var(--dark-background-color);
+  padding: 60px 25% 60px 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.quote {
+  font-weight: 300;
+  color: var(--dark-background-color);
+  font-style: italic;
+  align-self: flex-start;
+}
+
+.name {
+  font-weight: 600;
+  align-self: flex-end;
 }
 
 /* Font: Roboto

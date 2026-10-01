@@ -95,6 +95,40 @@ ul {
   font-size: 18px;
 }
 
+.random-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-heading {
+  font-size: 48px;
+  font-weight: 900;
+  padding: 32px 0;
+}
+
+.info-row {
+  display: flex;
+  gap: 40px;
+}
+
+.box-and-text {
+  width: 140px;
+}
+
+.blue-box {
+  border: 2px solid var(--blue-background-color);
+  height: 140px;
+  width: 140px;
+  border-radius: 10px;
+}
+
+.info-text {
+  font-size: 18px;
+  color: var(--placeholder-color);
+}
+
 /* Font: Roboto
 +Dark background color (header, hero section and footer): #1F2937
 +Logo text:
